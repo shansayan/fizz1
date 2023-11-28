@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+}
+
+.head {
+    width: 100%;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #0a0b27;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.first {
+    width: 100%;
+    height: 828.450px;
+    background-image: url(images/fizzzphoto.jpg);
+    background-size: cover;
+}
+
+.sec {
+    width: 100%;
+    height: 950px;
+    display: flex;
+
+
+
+}
+
+.inner1 {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+.inner2 {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.thir {
+    width: 100%;
+    height: 828.450px;
+    background-color: blue;
+}
+
+.four {
+    width: 100%;
+    height: 266.800px;
+    display: flex;
+}
+
+.headinner1 {
+    width: 1442.800px;
+    height: 70px;
+    background-color: rgb(202, 202, 202)75, 142, 142);
+}
+
+.list {
+    width: 1092.150px;
+    height: 27px;
+    background-color: #0a0b27;
+    margin-left: 210px;
+    margin-top: 13px;
+    margin-right: 45px;
+
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+
+
+
+}
+
+#li {
+    padding-left: 44px;
+    font-size: 23px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.para {
+    width: 496.400px;
+    height: 710.250px;
+
+
+    margin: 120px;
+    color: black;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.thir {
+    background-image: url(images/053402APPY-FIZZ_Social-Media_Range_2023.jpg);
+    background-size: cover;
+}
+
+.footer {
+    width: 1372.800px;
+    height: 166.800px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.footerinner1 {
+    width: 427.587px;
+    height: 120.800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+
+}
+
+.footerinner2 {
+    width: 427.587px;
+    height: 120.800px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    padding-top: 1px;
+    color: black;
+}
+
+.footerinner3 {
+    width: 427.587px;
+    height: 166.800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+
+}
+
+p {
+    margin-top: -10px;
+    color: black;
+}
+
+.listhover:hover {
+    color: red;
+
+}
+
+.foothover {
+    color: black;
+    font-weight: bolder;
+}
+
+.foothover:hover {
+    color: red;
+}
+
+.trans {
+    transition: transform 2s;
+    transition-timing-function: ease-in;
+
+
+}
+
+.trans:hover {
+    transform: rotate(360deg);
+}
